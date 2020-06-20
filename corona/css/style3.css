@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+ul {
+    background-color: #4267B2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li { 
+    float: left; 
+    padding: 15px;
+    cursor: pointer;
+    border-right: dotted 0.5px white;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+li:hover {
+    background-color: #304A81;
+}
+
+li:nth-child(3) {
+    background-color: #304A81;
+}
+
+#popupDiv {
+    /* 팝업창 css */
+    top: 0px;
+    position: absolute;
+    background: white;
+    width: 350px;
+    height: 400px;
+    display: none;
+    border-radius: 25px;
+}
+
+#popup_mask {
+    /* 팝업 배경 css */
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    display: none;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+#popupCloseBtn {
+    /* 팝업 닫기 버튼 */
+    background-color: #4267B2;
+    border-radius: 9px;
+    padding: 5px 10px;
+    box-shadow: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    width: 270px;
+    height: 27px;
+    border: 0;
+    margin: 8px 40px;
+}
+
+
+#popupCloseBtn:hover {
+    background-color: rgb(13, 57, 145);
+}
+
+.notice_mask{
+    background-color: #f2f2f2;
+    width: 80%;
+    height: 72%;
+    margin: 0 auto;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.notice {
+    font-size: 20px;
+    text-align: center;
+    font-family: "맑은 고딕";
+    font-weight: bold;
+}
+
+.notice_ {
+    text-align: left;
+    font-size: 13px;
+    border-bottom: 1px dashed rgb(70, 70, 70);
+    width: 230px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.notice__ {
+    text-align: left;
+    font-size: 13px;
+    border-bottom: 1px dashed rgb(70, 70, 70);
+    width: 230px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.contact_ {
+    text-align: center;
+    font-size: 13px;
+    width: 230px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
